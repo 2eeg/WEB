@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta http-equiv="X-UA-Compatilbe" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link href="http://localhost:3000/index.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Hello World</h1>
+        <p>my name is {{user}}</p>
+        <p>my height is {{height}}</p>
+        <form method="post" action="/hello">
+            <input type="text" name="name">
+            <input type="password" name="passwd">
+            <input type="submit" value="로그인">
+        </form>
+    </body>
+</html>
